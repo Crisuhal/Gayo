@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAYO | Asistencia de Estrategia Documental</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #1a0e00;
+            color: #f0e6d3;
+        }
+
+
+        header {
+            text-align: center;
+            padding: 40px 20px 20px;
+            background: linear-gradient(180deg, #0d0700 0%, #1a0e00 100%);
+            border-bottom: 2px solid #8b6914;
+        }
+
+
+        header img {
+            width: 280px;
+            max-width: 90%;
+            border-radius: 50%;
+            box-shadow: 0 0 30px rgba(139,105,20,0.6);
+        }
+
+
+        .tagline {
+            margin-top: 15px;
+            font-size: 0.95rem;
+            color: #c8a84b;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+
+        h2 {
+            font-size: 1.4rem;
+            color: #c8a84b;
+            border-bottom: 1px solid #8b6914;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+
+        .sobre-texto {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #e8d5b7;
+            text-align: justify;
+        }
+
+
+        .servicio-card {
+            background: linear-gradient(135deg, #2a1800, #1a0e00);
+            border: 1px solid #8b6914;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+
+        .servicio-card h3 {
+            color: #c8a84b;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+
+        .servicio-card p {
+            color: #d4b896;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+
+        .precio {
+            display: inline-block;
+            background: #8b6914;
+            color: #fff8e7;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+
+        .precio.gratis { background: #1a5c1a; }
+
+
+        .nota {
+            font-size: 0.82rem;
+            color: #a08060;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+
+        .pago-section {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(135deg, #2a1800, #1a0e00);
+            border: 1px solid #8b6914;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+
+
+        .mp-logo {
+            background: #009ee3;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: bold;
+            padding: 12px 30px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+
+        .pago-texto {
+            color: #d4b896;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+        }
+
+
+        .contacto-section {
+            text-align: center;
+            padding: 30px 20px 50px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+
+        .contacto-texto {
+            color: #d4b896;
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+            text-align: left;
+            line-height: 1.7;
+        }
+
+
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+        }
+
+
+        hr {
+            border: none;
+            border-top: 1px solid #3a2510;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #8b6914;
+            color: #6b5030;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+
+<header>
+    <img src="https://drive.google.com/uc?export=view&id=1HyZs9Vjxuw1DkS_ETPotdRui3tpD1CNV" alt="GAYO Logo">
+    <p class="tagline">Del derecho romano a tu contrato</p>
+</header>
+
+
+<section>
+    <h2>¿Qué es GAYO?</h2>
+    <p class="sobre-texto">
+        GAYO es un servicio de asistencia documental y orientación jurídica accesible, 
+        inspirado en el jurista romano Gayo, cuyas Institutas del siglo II d.C. son la base 
+        del derecho civil que rige hasta hoy. Acercamos el derecho a quienes más lo necesitan, 
+        con lenguaje claro, precios justos y resultados concretos.
+    </p>
+</section>
+
+
+<hr>
+
+
+<section>
+    <h2>Servicios</h2>
+
+
+    <div class="servicio-card">
+        <h3>📋 Redacción de Contratos</h3>
+        <p>Redactamos tu contrato de forma clara y con respaldo jurídico. 
+        Recibirás una captura o video del documento como prueba antes de abonar el total.</p>
+        <span class="precio">$2.000</span>
+        <p class="nota">* Se abona seña previa. Se envía prueba del trabajo antes del pago final.</p>
+    </div>
+
+
+    <div class="servicio-card">
+        <h3>💬 Asesoría Básica</h3>
+        <p>Consultas generales sobre tus derechos y orientación en lenguaje simple.</p>
+        <span class="precio gratis">GRATUITA</span>
+    </div>
+
+
+    <div class="servicio-card">
+        <h3>⚖️ Asesoría Avanzada</h3>
+        <p>Orientación detallada, análisis documental y acompañamiento en la comprensión de tus derechos.</p>
+        <span class="precio">$2.000</span>
+    </div>
+
+
+</section>
+
+
+<hr>
+
+
+<div class="pago-section">
+    <h2>Forma de Pago</h2>
+    <p class="pago-texto">Aceptamos pagos seguros a través de Mercado Pago.</p>
+    <div class="mp-logo">mercadopago</div>
+</div>
+
+
+<hr>
+
+
+<div class="contacto-section">
+    <h2>Contacto</h2>
+    <p class="contacto-texto">
+        Escribinos por WhatsApp para consultas, presupuestos o para iniciar tu trámite. 
+        Te respondemos a la brevedad.
+    </p>
+    <a href="https://wa.me/5492215856713" class="whatsapp-btn" target="_blank">
+        💬 Escribinos por WhatsApp
+    </a>
+</div>
+
+
+<footer>
+    <p>© 2025 GAYO | Asistencia de Estrategia Documental — Bases Milenarias | Lógica Jurídica</p>
+</footer>
+
+
+</body>
+</html>
